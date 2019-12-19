@@ -496,6 +496,39 @@ int ll_sort(LinkedList* this, int (*pFunc)(void*,void*), int order)
 {
     int returnAux =-1;
 
+    void* aux;
+    if ( this != NULL && order == 1 || order == 0){
+
+
+        if(order == 1){
+
+        for(int i= 0; i < ll_len(this)-1 ; i++)
+        {
+            for(int j= i+1; j <ll_len(this); j++)
+            {
+                if( pFunc(void*, void*) == 1)
+                {
+                    auxAlumno = vec[i];
+                    vec[i] = vec[j];
+                    vec[j] = auxAlumno;
+                }
+            }
+        }
+        }else
+                for(int i= 0; i < ll_len(this)-1 ; i++)
+        {
+            for(int j= i+1; j <ll_len(this); j++)
+            {
+                if( pFunc(void*, void*) == -1)
+                {
+                    auxAlumno = vec[i];
+                    vec[i] = vec[j];
+                    vec[j] = auxAlumno;
+                }
+            }
+        }
+    }
+
     return returnAux;
 
 }

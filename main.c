@@ -15,5 +15,9 @@ int main()
     /*printf("ingrece nombre de archivo: ");
     scanf("%s", &path);*/
 
-    controller_loadFromText("datos_Fin.txt", computerList);
+    if(controller_loadFromText("datos_Fin.csv", computerList)){
+        printf("exito al cargar");
+    }else{
+        printf("error al cargar");
+    }
 }

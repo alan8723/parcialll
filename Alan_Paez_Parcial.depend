@@ -1,71 +1,42 @@
 # depslib dependency file v1.0
-1576200660 source:c:\users\alumno\desktop\alan_paez_parcial\main.c
+1576632424 source:c:\users\franc\desktop\parcialll\computer.c
+	"computer.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1576632424 c:\users\franc\desktop\parcialll\computer.h
+
+1576637160 source:c:\users\franc\desktop\parcialll\controller.c
+	"controller.h"
+	"computer.h"
+	"parcer.h"
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+
+1576632424 c:\users\franc\desktop\parcialll\controller.h
+	"linkedlist.h"
+	<stdio.h>
+	<stdlib.h>
+
+1576632424 c:\users\franc\desktop\parcialll\linkedlist.h
+
+1576637230 c:\users\franc\desktop\parcialll\parcer.h
+	"linkedlist.h"
+	<stdio.h>
+	<stdlib.h>
+
+1576633187 source:c:\users\franc\desktop\parcialll\main.c
 	<stdio.h>
 	<stdlib.h>
 	"linkedlist.h"
 	"computer.h"
 	"controller.h"
 
-1576199374 source:c:\users\alumno\desktop\alan_paez_parcial\linkedlist.c
+1576637269 source:c:\users\franc\desktop\parcialll\parcer.c
 	<stdio.h>
 	<stdlib.h>
-	<string.h>
-	"linkedlist.h"
-
-1576199297 c:\users\alumno\desktop\alan_paez_parcial\linkedlist.h
-
-1576200660 source:c:\users\alumno\desktop\alan_paez_parcial\computer.c
+	"parcer.h"
 	"computer.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-
-1576201784 c:\users\alumno\desktop\alan_paez_parcial\computer.h
-
-1576201204 c:\users\alumno\desktop\alan_paez_parcial\controller.h
-	"linkedlist.h"
-	<stdio.h>
-	<stdlib.h>
-
-1576201249 source:c:\users\alumno\desktop\alan_paez_parcial\controller.c
-	"controller.h"
-	"computer.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-
-1576203343 source:d:\alan_paez_parcial\controller.c
-	"controller.h"
-	"computer.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-
-1576201204 d:\alan_paez_parcial\controller.h
-	"linkedlist.h"
-	<stdio.h>
-	<stdlib.h>
-
-1576199297 d:\alan_paez_parcial\linkedlist.h
-
-1576201784 d:\alan_paez_parcial\computer.h
-
-1576199374 source:d:\alan_paez_parcial\linkedlist.c
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
-	"linkedlist.h"
-
-1576203419 source:d:\alan_paez_parcial\main.c
-	<stdio.h>
-	<stdlib.h>
-	"linkedlist.h"
-	"computer.h"
-	"controller.h"
-
-1576202910 source:d:\alan_paez_parcial\computer.c
-	"computer.h"
-	<stdio.h>
-	<stdlib.h>
-	<string.h>
 
